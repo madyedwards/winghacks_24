@@ -11,7 +11,7 @@
   }
   
   .hero-container > h1 {
-    background: #F5E8CF;
+    
     color: #495d63;
     font-size: 100px;
     margin-top: -100px;
@@ -25,12 +25,11 @@
     color: #495d63;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px;
     font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    justify-content: center;
   }
   
   .hero-btns {
