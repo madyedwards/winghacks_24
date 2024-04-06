@@ -1,7 +1,8 @@
+import '../components/temp.css'
 
 function Home() {
     return (
-    <div>
+    <div className='page-body'>
         <p>Welcome Home</p>
     </div>
     );

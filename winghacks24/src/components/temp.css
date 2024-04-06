@@ -1,0 +1,19 @@
+.page-body {
+    background-color:aquamarine;
+    height: 1000px;
+    width: 100%;
+}
+
+.card {
+    background-color:rgb(152, 55, 55);
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 #394893;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    padding: 2px 16px;
+}
