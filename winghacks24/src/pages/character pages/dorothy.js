@@ -1,14 +1,14 @@
-import './characters.css';
-import { Button } from '../components/button/Button'
+import '../characters.css';
+import { Button } from '../../components/button/Button';
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 
-function Characters() {
-   
+function Dorothy() {
+    
     return (
     <div className='character-container'>
-        <h1>CHOOSE YOUR FIGHTER!</h1>
+        <h1>dorothy time</h1>
         
         <Link to='/ada'>
             <Button buttonStyle='btn--primary' buttonSize='btn--large'>Ada Lovelace</Button>
@@ -27,9 +27,8 @@ function Characters() {
         </Link>
 
         <Button buttonStyle='btn--primary' buttonSize='btn--large'>SECRET LOCKED</Button>
-
     </div>
     );
 };
 
-export default Characters
+export default Dorothy
