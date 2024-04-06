@@ -9,13 +9,13 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container'>
             <Link to='/home' className='navbar-logo'>
-              something! <i className='fa-typo3'></i>
+              About <i className='fa-typo3'></i>
             </Link>
             <Link to='/characters' className='navbar-logo'>
-              characters! <i className='fa-typo3'></i>
+              Characters <i className='fa-typo3'></i>
             </Link>
             <Link to='/credits' className='navbar-logo'>
-              credits! <i className='fa-typo3'></i>
+              Credits <i className='fa-typo3'></i>
             </Link>
           </div>
         </nav>
