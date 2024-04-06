@@ -1,11 +1,10 @@
-import './characters.css';
-import { Button } from '../components/button/Button'
-import Credit1 from './pictures/shiyin.png'
-import React, {useState} from 'react';
+import '../characters.css'
 import { Link } from 'react-router-dom';
+import { Button } from '../../components/button/Button';
+import React, {useState} from 'react';
 
 
-function Characters() {
+function Ada() {
     
     const [imageURL, setImage] = useState(null);
 
@@ -16,7 +15,7 @@ function Characters() {
 
     return (
     <div className='character-container'>
-        <h1>CHOOSE YOUR FIGHTER!</h1>
+        <h1>ada time</h1>
         
         <div className='div-indent'></div>
             <Link to='/ada'>
@@ -39,4 +38,4 @@ function Characters() {
     );
 };
 
-export default Characters
+export default Ada
