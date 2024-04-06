@@ -1,0 +1,32 @@
+.character-container {
+    background: #fac8cd;
+    height: 92vh;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    object-fit: contain;
+  }
+
+.div-indent {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-reveal {
+  position:absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.some-container {
+  background: #671f26;
+    height: 500vh;
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    object-fit: contain;
+}

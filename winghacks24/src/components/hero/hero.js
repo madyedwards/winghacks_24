@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css"
 import { Button } from "../button/Button";
+import { Link } from 'react-router-dom'
 
 function Hero() {
 
@@ -13,9 +14,12 @@ return (
             Their contributions towards their respective fields are invaluable, and their impact is nothing short of significant.
             Click to learn more about our history!
         </p>
-        <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
-            Characters
+        <Link to='/characters'>
+            <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
+                Characters
             </Button>
+
+        </Link>
     </div>
 
 )
