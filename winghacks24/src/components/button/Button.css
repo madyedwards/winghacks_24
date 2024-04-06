@@ -14,6 +14,7 @@
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
+    font-family: 'Pixelify Sans', sans-serif;
   }
   
   .btn--outline {
