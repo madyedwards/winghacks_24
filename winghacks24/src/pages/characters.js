@@ -1,4 +1,3 @@
-
 function Characters() {
     return (
     <div>

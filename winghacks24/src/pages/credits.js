@@ -1,9 +1,19 @@
 
 function Credits() {
     return (
-    <div>
-        <p>Welcome to Credits</p>
-    </div>
+    <>
+        <div class='card'>
+            <div class='container'>
+            <p>Welcome to Credits</p>
+            </div>
+        </div>
+
+        <div class='card'>
+            <div class='container'>
+            <p>Welcome to Credits</p>
+            </div>
+        </div>
+    </>
     );
 };
 
