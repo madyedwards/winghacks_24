@@ -5,25 +5,30 @@
   body {
     font-family: 'Pixelify Sans', sans-serif;
   }
+
+  .title {
+    font-size: 50px;
+    text-align: center;
+    color:rgb(23, 17, 130)
+  }
   
-  /* Float four columns side by side */
   .column {
     float: left;
     width: 33%;
     padding: 0 10px;
   }
   
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+
+  .row {margin: 0 50px;}
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive columns */
+
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -32,11 +37,53 @@
     }
   }
   
-  /* Style the counter cards */
+
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     margin-top: 30px;
     background-color: #f1f1f1;
+  }
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    margin-top: 30px;
+    background-color: #f1f1f1;
+  }
+
+
+  .nameTag1 {
+    font-family: 'Yarndings 12', sans-serif;
+    font-size: 30px;
+  }
+  
+  .nameTag2 {
+    font-family: 'Yarndings 12', sans-serif;
+    font-size: 30px;
+  }
+
+  .nameTag3 {
+    font-family: 'Yarndings 12', sans-serif;
+    font-size: 30px;
+  }
+
+  .nameTag1:hover span{display: none;}
+  .nameTag2:hover span{display: none;}
+  .nameTag3:hover span{display: none;}
+
+  .nameTag1:hover:before {
+    font-family: 'Pixelify Sans', sans-serif;
+    content: "Shiyin Hong";
+  }
+  .nameTag2:hover:before {
+    font-family: 'Pixelify Sans', sans-serif;
+    content: "Madison Edwards";
+  }
+
+  .nameTag3:hover:before {
+    font-family: 'Pixelify Sans', sans-serif;
+    content: "Hailey Pham";
   }
