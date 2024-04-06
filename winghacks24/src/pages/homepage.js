@@ -4,11 +4,7 @@ import { Button } from '../components/button/Button';
 function Home() {
     return (
     <div className='page-body'>
-        <p>Welcome Home</p>
-
-        <Button buttonStyle='btn--outline' buttonSize='btn--large'>
-            Here is a button
-        </Button>
+    
     </div>
     );
 };
