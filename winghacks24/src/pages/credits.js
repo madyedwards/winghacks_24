@@ -1,4 +1,7 @@
-import '../components/temp.css'
+import './credits.css'
+import './pictures/albino_rat.png'
+import './pictures/cowboy_rat.png'
+import './pictures/coquette_rat.png'
 
 function Credits() {
     return (

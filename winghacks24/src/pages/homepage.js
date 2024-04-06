@@ -1,4 +1,3 @@
-import '../components/temp.css'
 
 function Home() {
     return (
