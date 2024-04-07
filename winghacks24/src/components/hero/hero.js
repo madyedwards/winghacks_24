@@ -7,6 +7,7 @@ function Hero() {
 
 return (
     
+    
     <div className="hero-container">
         <h1>Welcome!</h1>
         <p>
@@ -16,7 +17,7 @@ return (
         </p>
         <Link to='/characters'>
             <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
-                Characters
+                Characters -{`>`} 
             </Button>
 
         </Link>
