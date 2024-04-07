@@ -1,6 +1,6 @@
 
 .hero-container {
-    background: #fac8cd;
+    background: #c7ccdb;
     height: 100vh;
     width: 65%;
     display: flex;
@@ -12,7 +12,7 @@
   
   .hero-container > h1 {
     
-    color: #495d63;
+    color: #373f51;
     font-size: 100px;
     margin-top: 30px;
     font-family: 'Pixelify Sans', sans-serif;
@@ -22,7 +22,7 @@
     margin-top: 16px;
     margin-left: 10px;
     margin-right: 10px;
-    color: #495d63;
+    color: #373f51;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;

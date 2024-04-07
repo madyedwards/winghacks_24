@@ -7,7 +7,7 @@ function Credits() {
     return (
     <>
     <div class='page-body'>
-        <h1 class='title'>CREDITS!</h1>
+        <h1 class='title'>Our Team</h1>
         <div class='row'>
 
             <div class='column'>
@@ -65,7 +65,7 @@ function Credits() {
         <div class='row'>
             <div class='card2'>
                 <div>
-                    <h1>References</h1>
+                    <h1 className='title'>References</h1>
                     <ul>
                         <li>https://www.britannica.com/biography/Ada-Lovelace</li>
                         <li>https://en.wikipedia.org/wiki/Chien-Shiung_Wu</li>

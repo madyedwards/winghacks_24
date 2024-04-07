@@ -7,9 +7,9 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    color:rgb(23, 17, 130)
+    color: #373f51;
   }
   
   .column {
@@ -43,7 +43,8 @@
     padding: 16px;
     text-align: center;
     margin-top: 30px;
-    background-color: #f1f1f1;
+    background: #c7ccdb;
+    border-radius: 16px;
   }
 
   .card2 {
@@ -51,22 +52,27 @@
     padding: 16px;
     text-align: left;
     margin-top: 30px;
-    background-color: #f1f1f1;
+    background: #c7ccdb;
+    border-radius: 16px;
+    color: #373f51;
   }
 
 
   .nameTag1 {
     font-family: 'Yarndings 12', sans-serif;
+    color: #373f51;
     font-size: 30px;
   }
   
   .nameTag2 {
     font-family: 'Yarndings 12', sans-serif;
+    color: #373f51;
     font-size: 30px;
   }
 
   .nameTag3 {
     font-family: 'Yarndings 12', sans-serif;
+    color: #373f51;
     font-size: 30px;
   }
 
@@ -76,14 +82,17 @@
 
   .nameTag1:hover:before {
     font-family: 'Pixelify Sans', sans-serif;
+    color: #373f51;
     content: "Shiyin Hong";
   }
   .nameTag2:hover:before {
     font-family: 'Pixelify Sans', sans-serif;
+    color: #373f51;
     content: "Madison Edwards";
   }
 
   .nameTag3:hover:before {
     font-family: 'Pixelify Sans', sans-serif;
+    color: #373f51;
     content: "Hailey Pham";
   }

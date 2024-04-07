@@ -1,5 +1,5 @@
 :root {
-    --primary: #b5ef8a;
+    --primary: #26471;
   }
   
   .btn {
@@ -18,11 +18,12 @@
   }
   
   .btn--outline {
-    background-color: #495d63;
-    color: #fff;
+    background-color: #373f51;
+    color: #e1e5ee;
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     font-family: 'Pixelify Sans', sans-serif;
+    border-radius: 16px;
   }
   
   .btn--medium {
@@ -38,7 +39,7 @@
   .btn--large:hover,
   .btn--medium:hover {
     transition: all 0.3s ease-out;
-    background: #7fc29b;
-    color: #fff;
+    background: #d26471;
+    color: #e1e5ee;
     transition: 250ms;
   }
