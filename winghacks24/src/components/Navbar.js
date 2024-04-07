@@ -7,7 +7,7 @@ function Navbar() {
     <>
         <nav className='navbar'>
           <div className='navbar-container'>
-            <Link to='/home' className='navbar-logo'>
+            <Link to='/madyedwards/winghacks_24.git' className='navbar-logo'>
               About <i className='fa-typo3'></i>
             </Link>
             <Link to='/characters' className='navbar-logo'>

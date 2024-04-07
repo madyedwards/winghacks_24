@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/madyedwards/winghacks_24.git' element={<Home />} />
           <Route path='/credits' element={<Credits />} />
           <Route path='/characters' element={<Characters />} />
           <Route path='/ada' element={<Ada />} />

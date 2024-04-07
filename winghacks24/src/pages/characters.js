@@ -26,7 +26,7 @@ function Characters() {
             <Button buttonStyle='btn--primary' buttonSize='btn--large'>Lynn Conway</Button>
         </Link>
 
-        <Button buttonStyle='btn--primary' buttonSize='btn--large'>SECRET LOCKED</Button>
+        <Button buttonStyle='btn--primary' buttonSize='btn--large'>LOCKED SECRET</Button>
 
     </div>
     );
