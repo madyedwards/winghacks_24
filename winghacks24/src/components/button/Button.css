@@ -35,6 +35,18 @@
     padding: 12px 26px;
     font-size: 30px;
   }
+
+  .btn--large1 {
+    padding: 12px 26px;
+    font-size: 30px;
+  }
+
+  .btn--large1:hover {
+    transition: all 0.3s ease-out;
+    background: #a8a3a3;
+    color: #e1e5ee;
+    transition: 250ms;
+  }
   
   .btn--large:hover,
   .btn--medium:hover {
