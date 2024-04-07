@@ -9,8 +9,33 @@
     object-fit: contain;
   }
 
+.container {
+    display: flex;
+}
+
+.container-mini {
+  background:#fac8cd;
+  height: 100vh;
+  width: 100%;
+  margin-right: 370px;
+  margin-top: 30px;
+  margin-left: 90px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  border-radius: 20px;
+  overflow:visible;
+}
+
 .div-indent {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.img {
+  position:absolute;
+  left: 30%;
+  bottom: -30%;
+}
+
 
