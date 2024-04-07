@@ -28,7 +28,7 @@ function Chien() {
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Lynn Conway</Button>
                 </Link>
 
-                <Button buttonStyle='btn--primary' buttonSize='btn--large'>LOCKED SECRET</Button>
+                <Button buttonStyle='btn--primary' buttonSize='btn--large1'>LOCKED SECRET</Button>
             </div>
             <div className='container-mini'>
                 <h1>Chien-Shiung Wu | The Physicist</h1>
