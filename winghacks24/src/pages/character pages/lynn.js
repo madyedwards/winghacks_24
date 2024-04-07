@@ -1,6 +1,6 @@
 import '../characters.css';
 import { Button } from '../../components/button/Button';
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
