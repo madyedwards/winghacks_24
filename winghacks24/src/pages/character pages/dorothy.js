@@ -3,6 +3,7 @@ import { Button } from '../../components/button/Button';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import dorImg from '../pictures/dorothy .PNG'
+import dorPFP from '../pictures/dorPFP.png'
 
 function Dorothy() {
     
@@ -10,7 +11,7 @@ function Dorothy() {
         <>
         <div className='container'>
             <div className='character-container'>
-                <h1>Dorothy Vaughan</h1>
+                <img className='imgPFP' src={dorPFP} alt='Dorothy Vaughan' width={'70%'}/>
                 
                 <Link to='/ada'>
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Ada Lovelace</Button>
