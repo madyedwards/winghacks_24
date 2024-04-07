@@ -33,7 +33,6 @@ function Lynn() {
             <div className='container-mini'>
                 <h1>Lynn Conway | The Computer Scientist </h1>
                 <p>&gt;Born: January 2, 1938</p>
-                <p>&gt;Died: Alive!</p>
                 <p>&gt;Title: Computer Scientist | Electrical Engineer</p>
                 <p>&gt;Notable Information: 
                 Mead–Conway VLSI chip design</p>

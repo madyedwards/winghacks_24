@@ -71,6 +71,7 @@ function Credits() {
                         <li>https://en.wikipedia.org/wiki/Chien-Shiung_Wu</li>
                         <li>https://www.nasa.gov/people/dorothy-vaughan/</li>
                         <li>https://en.wikipedia.org/wiki/Kathleen_Booth</li>
+                        <li>https://en.wikipedia.org/wiki/Lynn_Conway</li>
                     </ul>
 
                     <ul>
