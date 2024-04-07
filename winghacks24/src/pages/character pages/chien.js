@@ -3,6 +3,7 @@ import { Button } from '../../components/button/Button';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import wuImg from '../pictures/wu.PNG'
+import wuPFP from '../pictures/wuPFP.png'
 
 function Chien() {
     
@@ -10,7 +11,7 @@ function Chien() {
         <>
         <div className='container'>
             <div className='character-container'>
-                <h1>Chien-Shiung Wu</h1>
+                <img className='imgPFP' src={wuPFP} alt='Chien-Shiung Wu' width={'70%'}/>
                 
                 <Link to='/ada'>
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Ada Lovelace</Button>

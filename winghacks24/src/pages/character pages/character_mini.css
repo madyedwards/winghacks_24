@@ -58,3 +58,8 @@
     left: 73%;
     bottom: -13%;
   }
+
+  .imgPFP {
+    padding-top: 10px;
+    border-radius: 50%;
+  }

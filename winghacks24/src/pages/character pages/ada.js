@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './character_mini.css'
 import adaImg from '../pictures/ada.PNG'
+import adaPFP from '../pictures/adaPFP.png'
 
 
 function Ada() {
@@ -12,7 +13,7 @@ function Ada() {
     <>
         <div className='container'>
             <div className='character-container'>
-                <h1>Ada Lovelace</h1>
+                <img className='imgPFP' src={adaPFP} alt='Ada Lovelace' width={'70%'}/>
                 
                 <Link to='/ada'>
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Ada Lovelace</Button>
