@@ -9,6 +9,7 @@ import Ada from './pages/character pages/ada';
 import Chien from './pages/character pages/chien';
 import Dorothy from './pages/character pages/dorothy';
 import Lynn from './pages/character pages/lynn';
+import You from './pages/character pages/you';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/chien' element={<Chien />} />
           <Route path='/dorothy' element={<Dorothy />} />
           <Route path='/lynn' element={<Lynn />} />
+          <Route path='/secret' element={<You />}/>
         </Routes>
       </Router>
     </>

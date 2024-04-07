@@ -2,15 +2,14 @@ import '../characters.css';
 import { Button } from '../../components/button/Button';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import wuImg from '../pictures/wu.PNG'
 
-function Chien() {
+function You() {
     
     return (
         <>
         <div className='container'>
             <div className='character-container'>
-                <h1>Chien-Shiung Wu</h1>
+                <h1>YET TO UNLOCK</h1>
                 
                 <Link to='/ada'>
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Ada Lovelace</Button>
@@ -31,24 +30,24 @@ function Chien() {
                 <Link to='/secret'>
                    <Button buttonStyle='btn--primary' buttonSize='btn--large1'>LOCKED SECRET</Button>
                 </Link>
-            </div>
-            <div className='container-mini'>
-                <h1>Chien-Shiung Wu | The Physicist</h1>
-                <p>&gt;Born: May 31st, 1912</p>
-                <p>&gt;Died: February 16th, 1997</p>
-                <p>&gt;Title: Physicist</p>
-                <p>&gt;Notable Information: 
-                Chinese physicist who studied at UC Berkeley. Instrumental to the Manhattan Project.</p>
-                <p>Received the National Medal of Science in 1975 and was dubbed "The First Lady of Physics".</p>
-                <p>
-                Disproved the hypothetical law of conservation of parity.
-                </p>
 
-                <img className='img-locate-wu' src={wuImg} alt='Chien-Shiung Wu' width={'20%'}/>
-            </div>
+                </div>
+
+                <div className='container-mini' >
+                    <h1> What's this? </h1>
+                    <p>Seems you have yet to unlock this character....</p>
+                    <p>
+
+                    </p>
+                    <p>
+                        And that's because its you! Whether it be mathematics, physics, or perhaps even computer science, don't let anything stop you from pursuing your interests! One day, you might be on this list as well!
+                    </p>
+                </div>
+            
+            
         </div>
     </>
     );
 };
 
-export default Chien
+export default You

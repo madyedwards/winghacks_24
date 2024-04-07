@@ -30,7 +30,9 @@ function Ada() {
                     <Button buttonStyle='btn--primary' buttonSize='btn--large'>Lynn Conway</Button>
                 </Link>
 
-                <Button buttonStyle='btn--primary' buttonSize='btn--large1'>LOCKED SECRET</Button>
+                <Link to='/secret'>
+                   <Button buttonStyle='btn--primary' buttonSize='btn--large1'>LOCKED SECRET</Button>
+                </Link>
             </div>
             <div className='container-mini'>
                 <h1>Ada Lovelace | The First Programmer</h1>
