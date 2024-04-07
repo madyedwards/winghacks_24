@@ -33,7 +33,7 @@ function Credits() {
                         <img src={Credit2} alt="Another rat" height={300} width={300} />
                         <p>Hello! I am a third-year Computer Science major and Digital Arts and Science
                              minor studying at UF. I am currently interested in pursuing UI/UX design, 
-                             game development, and software engineering. This is my second hackathon at UF. 
+                             game development, and software engineering.
                              I hope you enjoy the project we created!
                         </p>
                         <a href="https://www.linkedin.com/in/mady-e-16775427a/">LinkedIn</a>
