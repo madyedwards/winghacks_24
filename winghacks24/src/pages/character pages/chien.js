@@ -37,6 +37,10 @@ function Chien() {
                 <p>&gt;Title: Physicist</p>
                 <p>&gt;Notable Information: 
                 Chinese physicist who studied at UC Berkeley. Instrumental to the Manhattan Project.</p>
+                <p>Received the National Medal of Science in 1975 and was dubbed "The First Lady of Physics".</p>
+                <p>
+                Disproved the hypothetical law of conservation of parity.
+                </p>
 
                 <img className='img-locate-wu' src={wuImg} alt='Chien-Shiung Wu' width={'20%'}/>
             </div>

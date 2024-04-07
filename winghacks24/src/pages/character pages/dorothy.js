@@ -37,7 +37,7 @@ function Dorothy() {
                 <p>&gt;Title: NASA’s First African-American Manager | Mathematician</p>
                 <p>&gt;Notable Information: 
                 Head of the National Advisory Committee for Aeronautics’ (NACA’s) segregated West Area Computing Unit & NASA’s First African-American Manager</p>
-
+                <p>Her work helped to further national aerospace goals from World War II to the Space Age.</p>
                 <img className='img-locate-dor' src={dorImg} alt='Dorothy Vaughan' width={'14%'}/>
             </div>
         </div>

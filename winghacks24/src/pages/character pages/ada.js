@@ -39,6 +39,7 @@ function Ada() {
                 <p>&gt;Title: The First Programmer | Mathematician</p>
                 <p>&gt;Notable Information: 
                 Created a program for the first prototype of a digital computer and is considered the first programmer.</p>
+                <p>Her work is considered the earliest forms of modern computers to date, predating the modern equivalent by nearly a century.</p>
 
                 <img className='img-locate' src={adaImg} alt='Ada Lovelace' width={'30%'}/>
             </div>

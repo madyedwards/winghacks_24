@@ -35,7 +35,8 @@ function Lynn() {
                 <p>&gt;Born: January 2, 1938</p>
                 <p>&gt;Title: Computer Scientist | Electrical Engineer</p>
                 <p>&gt;Notable Information: 
-                Mead–Conway VLSI chip design revolution which restructured academic materials in computer science and electrical engineering education & is a transgender woman in STEM.</p>
+                Transformed the global microelectronics industry with the Mead–Conway VLSI chip design revolution which restructured academic materials in computer science and electrical engineering education.</p> 
+                <p> A significant figure towards advancing transgender and women's rights in STEM.</p>
 
                 <img className='img-locate-lynn' src={lynnImg} alt='Lynn Conway' width={'21%'}/>
             </div>
