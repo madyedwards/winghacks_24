@@ -38,11 +38,9 @@ function Ada() {
                 <p>&gt;Died: November 27, 1852</p>
                 <p>&gt;Title: The First Programmer | Mathematician</p>
                 <p>&gt;Notable Information: 
-                Created a program for </p>
-                <p>the first prototype of a digital computer</p>
-                <p>and is considered the first programmer.</p>
+                Created a program for the first prototype of a digital computer and is considered the first programmer.</p>
 
-                <img className='img-locate' src={adaImg} alt='Ada Lovelace' width={550}/>
+                <img className='img-locate' src={adaImg} alt='Ada Lovelace' width={'30%'}/>
             </div>
         </div>
     </>

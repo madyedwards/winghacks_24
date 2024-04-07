@@ -36,11 +36,9 @@ function Chien() {
                 <p>&gt;Died: February 16th, 1997</p>
                 <p>&gt;Title: Physicist</p>
                 <p>&gt;Notable Information: 
-                Chinese physicist who studied</p>
-                <p>at UC Berkeley. Instrumental to the Manhattan</p>
-                <p>Project.</p>
+                Chinese physicist who studied at UC Berkeley. Instrumental to the Manhattan Project.</p>
 
-                <img className='img-locate-wu' src={wuImg} alt='Chien-Shiung Wu' width={350}/>
+                <img className='img-locate-wu' src={wuImg} alt='Chien-Shiung Wu' width={'20%'}/>
             </div>
         </div>
     </>

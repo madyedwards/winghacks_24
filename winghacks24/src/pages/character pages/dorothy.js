@@ -36,11 +36,9 @@ function Dorothy() {
                 <p>&gt;Died: November 10, 2008</p>
                 <p>&gt;Title: NASA’s First African-American Manager | Mathematician</p>
                 <p>&gt;Notable Information: 
-                Head of the National Advisory</p>
-                <p>Committee for Aeronautics’ (NACA’s) segregated West</p>
-                <p>Area Computing Unit & NASA’s First African-American Manager</p>
+                Head of the National Advisory Committee for Aeronautics’ (NACA’s) segregated West Area Computing Unit & NASA’s First African-American Manager</p>
 
-                <img className='img-locate-dor' src={dorImg} alt='Dorothy Vaughan' width={250}/>
+                <img className='img-locate-dor' src={dorImg} alt='Dorothy Vaughan' width={'14%'}/>
             </div>
         </div>
     </>
